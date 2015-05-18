@@ -1,7 +1,8 @@
 #include <iostream>
 #include <string>
+#include <vector>
 
 struct nodo{
 	string dato;
-	nodo *sig;
+	vector<ptrNodo> lista;
 };
